@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color:darkred;
+    color:aliceblue;
+}
+
+article{
+    margin-top: 40px;
+    display: grid;
+    place-items: center;
+}
+
+section{
+    margin: 20px 0px 20px 0px;
+    width: 500px;
+    text-align: center;
+}
+
+header{
+    font-size: 24pt;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 70pt;
+    color: aliceblue;
+}
+
+input[type=number]{
+    background: none;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font: normal 14pt 'Roboto Mono', monospace;
+    color: aliceblue;
+    margin-top: 20px;
+    padding-bottom: 4px;
+    width: 100px;
+    text-align: center;
+}
+
+input[type=number]:invalid {
+    border-bottom: solid 2px grey;
+}
+
+input[type=number]:hover{
+    border-bottom: solid 2px aliceblue;
+    transition: 0.2s;
+}
+
+input[type=number]:valid {
+    border-bottom: solid 2px aliceblue;
+}
+
+input[type=number]:disabled{
+    border-bottom: solid 2px grey;
+}
+
+input[type=number]:disabled:hover{
+    border-bottom: solid 2px grey;
+}
+
+input[type=button]{
+    background: none;
+    color:aliceblue;
+    font: normal 14pt 'Roboto Mono', monospace;
+    border-radius: 6px;
+    border: 2px solid aliceblue;
+    padding: 10px;
+    cursor: pointer;
+    width: 120px;
+}
+
+input[type=button]:hover{
+    background-color: aliceblue;
+    color: darkred;
+    transition: 0.2s;
+}
+
+input[type=button]:disabled{
+    color: grey;
+    border-color: grey;
+}
+
+input[type=button]:disabled:hover{
+    background-color: darkred;
+    color: grey;
+}
+
+p{
+    font-size: 16pt;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
