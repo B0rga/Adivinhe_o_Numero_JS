@@ -10,7 +10,7 @@ body{
 }
 
 article{
-    margin-top: 40px;
+    margin-top: 20px;
     display: grid;
     place-items: center;
 }
@@ -23,7 +23,6 @@ section{
 
 header{
     font-size: 24pt;
-    margin-bottom: 30px;
 }
 
 h2{
@@ -39,7 +38,6 @@ input[type=number]{
     border-right: none;
     font: normal 14pt 'Roboto Mono', monospace;
     color: aliceblue;
-    margin-top: 20px;
     padding-bottom: 4px;
     width: 100px;
     text-align: center;
@@ -86,6 +84,7 @@ input[type=button]:hover{
 input[type=button]:disabled{
     color: grey;
     border-color: grey;
+    cursor: default;
 }
 
 input[type=button]:disabled:hover{

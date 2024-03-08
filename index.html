@@ -12,14 +12,14 @@
             <h1>Advinhe um número de 0 a 10</h1>
         </header>
         <section>
-            <h2 id="roleta"><br></h2>
+            <h2><br></h2>
         </section>
         <section>
             <input type="number" placeholder="Número" id="num" autocomplete="off" disabled="true" required>
         </section>
         <section id="buttons">
-            <input type="button" value="Iniciar" id="iniciar">
-            <input type="button" value="Adivinhar" id="adivinhar" disabled="true">
+            <input type="button" value="Iniciar" id="iniciar" onclick="jogo.IniciarJogo()">
+            <input type="button" value="Adivinhar" id="adivinhar" onclick="jogo.AdivinharNumero()" disabled="true">
         </section>
         <section>
             <p></p>
